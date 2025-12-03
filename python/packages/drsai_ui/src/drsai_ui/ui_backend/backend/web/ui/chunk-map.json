@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"app":["/app-75d612bb0b565515efc6.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-a3a639ab2a9d8ae8b173.js"],"component---src-pages-auth-tsx":["/component---src-pages-auth-tsx-8b49e02b0dd162a405e6.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-19cf996439f66f7a3555.js"],"component---src-pages-sso-login-tsx":["/component---src-pages-sso-login-tsx-690fb4c18948b79e2a68.js"]}
-=======
-{"app":["/app-d50d5d5ab635092471b2.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-a3a639ab2a9d8ae8b173.js"],"component---src-pages-auth-tsx":["/component---src-pages-auth-tsx-8b49e02b0dd162a405e6.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-0d8dfc6ef376d4bcc11e.js"],"component---src-pages-sso-login-tsx":["/component---src-pages-sso-login-tsx-690fb4c18948b79e2a68.js"]}
->>>>>>> 07673e10c5cf06f5f5d261f1a87372de76d904bd
+{"app":["/app-75d612bb0b565515efc6.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-a3a639ab2a9d8ae8b173.js"],"component---src-pages-auth-tsx":["/component---src-pages-auth-tsx-8b49e02b0dd162a405e6.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-efbb86a42970878ca3fc.js"],"component---src-pages-sso-login-tsx":["/component---src-pages-sso-login-tsx-690fb4c18948b79e2a68.js"]}
