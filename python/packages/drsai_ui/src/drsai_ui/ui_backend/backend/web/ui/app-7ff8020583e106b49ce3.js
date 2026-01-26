@@ -10024,8 +10024,7 @@ const getServerUrl=()=>{return  false||"/api";};function setCookie(name,value,da
 /* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(69036);
 const cookie_name="coral_app_cookie_";const appContext=/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createContext({});const Provider=_ref=>{let{children}=_ref;const storedValue=(0,_components_utils__WEBPACK_IMPORTED_MODULE_1__/* .getLocalStorage */ .Lg)("darkmode",false);const{0:darkMode,1:setDarkMode}=(0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(storedValue===null?"light":storedValue==="dark"?"dark":"light");const logout=()=>{// setUser(null);
 // eraseCookie(cookie_name);
-antd__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Ay.info("Please implement your own logout logic");};const updateDarkMode=darkMode=>{setDarkMode(darkMode);(0,_components_utils__WEBPACK_IMPORTED_MODULE_1__/* .setLocalStorage */ .ZB)("darkmode",darkMode,false);};// Modify logic here to add your own authentication
-const initUser={name:"Guest User",email:(0,_components_utils__WEBPACK_IMPORTED_MODULE_1__/* .getLocalStorage */ .Lg)("user_email")||"guestuser@gmail.com",username:"guestuser"};const setUser=user=>{if(user!==null&&user!==void 0&&user.email){(0,_components_utils__WEBPACK_IMPORTED_MODULE_1__/* .setLocalStorage */ .ZB)("user_email",user.email,false);}setUserState(user);};// const [userState, setUserState] = useState<IUser | null>(initUser);
+antd__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Ay.info("Please implement your own logout logic");};const updateDarkMode=darkMode=>{setDarkMode(darkMode);(0,_components_utils__WEBPACK_IMPORTED_MODULE_1__/* .setLocalStorage */ .ZB)("darkmode",darkMode,false);};const setUser=user=>{if(user!==null&&user!==void 0&&user.email){(0,_components_utils__WEBPACK_IMPORTED_MODULE_1__/* .setLocalStorage */ .ZB)("user_email",user.email,false);}setUserState(user);};// const [userState, setUserState] = useState<IUser | null>(initUser);
 // 不初始化用户
 const{0:userState,1:setUserState}=(0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(null);react__WEBPACK_IMPORTED_MODULE_0__.useEffect(()=>{const storedEmail=(0,_components_utils__WEBPACK_IMPORTED_MODULE_1__/* .getLocalStorage */ .Lg)("user_email");if(storedEmail){setUserState(prevUser=>Object.assign({},prevUser,{email:storedEmail,name:storedEmail}));}},[]);return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(appContext.Provider,{value:{user:userState,setUser,logout,cookie_name,darkMode,setDarkMode:updateDarkMode}},children);};/* harmony default export */ __webpack_exports__.A = (_ref2=>{let{element}=_ref2;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Provider,null,element);});
 
@@ -16561,4 +16560,4 @@ __webpack_require__.r(__webpack_exports__);
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=app-ab97764110bc329fa68b.js.map
+//# sourceMappingURL=app-7ff8020583e106b49ce3.js.map
